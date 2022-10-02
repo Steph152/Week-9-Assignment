@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        div{
+            border-style: solid;
+            border-color: grey;
+           padding: 5px;
+           margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <script src="node_modules/jguery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js" ></script>
+    
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="week9assignment.html">Home Page</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
+        aria-controle="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="week9assignment.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="week9assignment2.html">DUCKS</a>
+            </li>
+           <li class="nav-item dropdown">
+
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" date-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Dropdown
+                </a>
+               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">One</a>
+                    <a class="dropdown-item" href="#">Two</a>
+                </div>
+            </li> 
+
+        </ul>
+        
+    </div>
+    </nav>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm">
+                <img src="prettyduck.jpg" alt="Photo of Colorful Duck" style="width:500px;"></image>
+                
+            </div>
+            
+            <div class="col-sm">
+                Welcome to my page about DUCKS! Subscribe below for your daily dose of ducks: <br>
+                <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
+            
+            <div class="col-sm">
+                <img src="bigrubberduck.jpg" alt="Giant Rubber Duck" style="width:500px;"></image>
+            </div>
+        </div>    
+    </div>
+   
+    <!--SAVE FOR LATER
+        <div class="container-fluid" >
+            <div class="row">
+                <div class="col-sm">
+                    Content
+                </div>
+                <div class="col-sm">
+                    Content
+                </div>
+                <div class="col-sm">
+                    Content
+                </div>
+            </div>
+    </div>
+   -->
+   
+
+</body>
+</html>
